@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class RecursiveProduct {
     public static int product(int m, int n) {
-        // Base case
         if (n == 0) return 0;
-        // Recursive case
         return m + product(m, n - 1);
     }
 
@@ -18,4 +16,6 @@ public class RecursiveProduct {
         System.out.println("Product of " + m + " and " + n + " = " + product(m, n));
         sc.close();
     }
+
+
 }

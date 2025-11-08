@@ -3,12 +3,9 @@ import java.util.Scanner;
 
 public class PalindromeCheck {
     public static boolean isPalindrome(String s) {
-        // Base case
         if (s.length() <= 1) return true;
-        // Compare first and last characters
         if (s.charAt(0) != s.charAt(s.length() - 1))
             return false;
-        // Recursive call on substring without first and last char
         return isPalindrome(s.substring(1, s.length() - 1));
     }
 
