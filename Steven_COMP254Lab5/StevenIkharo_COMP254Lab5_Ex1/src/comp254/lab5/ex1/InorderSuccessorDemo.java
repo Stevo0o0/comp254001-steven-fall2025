@@ -1,6 +1,12 @@
 package comp254.lab5.ex1;
 
 import java.util.*;
+//      A
+//     / \
+//    B   C
+//   / \
+//  D   E
+
 
 public class InorderSuccessorDemo {
 
